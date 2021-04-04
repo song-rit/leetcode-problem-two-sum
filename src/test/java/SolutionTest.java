@@ -29,5 +29,6 @@ public class SolutionTest {
         int target = 6;
         int[] result = solution.twoSum(nums, target);
         Assertions.assertEquals(0, result[0]);
+        Assertions.assertEquals(1, result[1]);
     }
 }
